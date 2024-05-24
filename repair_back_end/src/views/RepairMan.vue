@@ -112,18 +112,18 @@ export default {
 
 <style scoped>
 h2 {
-  text-align: center; /* 标题居中 */
+  text-align: center;
 }
 
 .el-table {
-  margin: 20px auto; /* 表格居中显示 */
+  margin: 20px auto; 
 }
 .add-button{
   display: flex;
-  justify-content: center; /* 水平居中 */
+  justify-content: center; 
   margin-bottom: 20px;
 }
 .el-button {
-  margin: 0 5px; /* 按钮之间的间距 */
+  margin: 0 5px;
 }
 </style>

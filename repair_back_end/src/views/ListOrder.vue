@@ -126,14 +126,14 @@ export default {
 </script>
 <style scoped>
   h2 {
-  text-align: center; /* 标题居中 */
+  text-align: center;
 }
 
 .el-table {
-  margin: 20px auto; /* 表格居中显示 */
+  margin: 20px auto;
 }
 
 .el-button {
-  margin: 0 10px; /* 按钮之间的间距 */
+  margin: 0 10px;
 }
 </style>

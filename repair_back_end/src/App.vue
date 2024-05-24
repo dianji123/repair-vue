@@ -30,7 +30,7 @@ export default {
 .container {
   display: flex;
   flex-direction: column; /* 子元素按列排列 */
-  justify-content: center; /* 水平居中（在主轴方向） */
+  justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
   height: 100%;
 }
@@ -55,26 +55,25 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333; /* 深色背景 */
-  color: white; /* 白色字体 */
-  padding: 10px 0; /* 添加一些垂直内边距 */
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
 }
 
 .navbar a {
-  color: white; /* 链接文字为白色 */
-  margin: 0 15px; /* 在链接之间添加一些水平间距 */
-  text-decoration: none; /* 去除下划线 */
-  padding: 10px 15px; /* 添加一些内边距 */
-  border-radius: 5px; /* 轻微圆角边缘 */
+  color: white; 
+  margin: 0 15px; 
+  text-decoration: none; 
+  padding: 10px 15px;
+  border-radius: 5px;
   transition: background-color 0.3s ease; /* 平滑的背景颜色转换效果 */
 }
 
 .navbar a:hover {
-  background-color: #555; /* 鼠标悬停时背景颜色变暗 */
+  background-color: #555; 
 }
-
 .navbar a.active {
-  background-color: #409eff; /* 活动链接的背景颜色 */
+  background-color: #409eff;
   color: white;
 }
 

@@ -115,12 +115,12 @@ input[type="text"], select {
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #dcdfe6;
-  background-color: #f0f0f0; /* Disabled fields in grey */
+  background-color: #f0f0f0; 
 }
 
 .button-container {
   display: flex;
-  justify-content: center; /* 水平居中 */
+  justify-content: center;
 }
 
 button {
