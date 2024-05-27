@@ -31,7 +31,7 @@ export default {
     const login = async () => {
       try {
         // 发送登录请求到后端
-        const response = await axios.post('http://localhost:8080/api/admin/_login.php', {
+        const response = await axios.post('http://localhost:5473/api/admin/_login.php', {
           username: username.value,
           password: password.value
         });

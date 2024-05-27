@@ -77,7 +77,7 @@ export default {
     const fetchOrderData = () => {
       const orderId = route.query.id;
       axios
-        .get(`http://localhost:8080/api/admin/_getOrder.php?id=${orderId}`)
+        .get(`http://localhost:5473/api/admin/_getOrder.php?id=${orderId}`)
         .then((res) => {
           order.value = res.data[0];
           status.value = order.value.status;

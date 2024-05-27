@@ -41,7 +41,7 @@
   
       const addRepairMan = () => {
         axios
-          .post('http://localhost:8080/api/admin/_addRepairMan.php', {
+          .post('http://localhost:5473/api/admin/_addRepairMan.php', {
             username: username.value,
             password: password.value,
             realname: realname.value,

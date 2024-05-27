@@ -61,7 +61,7 @@
       const fetchRepairManData = () => {
         const repairManId = route.query.aid;
         axios
-          .get(`http://localhost:8080/api/admin/_getRepairMan.php?aid=${repairManId}`)
+          .get(`http://localhost:5473/api/admin/_getRepairMan.php?aid=${repairManId}`)
           .then((res) => {
             repairMan.value = res.data[0];
             username.value = res.data[0].username;

@@ -13,10 +13,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  // rewrite: (path) => path.replace(/^\/api/, ''),
   server: {
-    // 服务器主机名，默认是 localhost
     host: 'localhost',
-    port: 8080,
+    port: 5473,
     proxy: {
       '/api': {
         target: 'http://localhost:80',

@@ -38,7 +38,7 @@ export default {
       const token = sessionStorage.getItem('token');
       if(token != null){
         axios.defaults.headers.common['Authorization'] = 'Bearer ' + token;
-        axios.get('http://localhost:8080/api/admin/_listRepairMan.php')
+        axios.get('http://localhost:5473/api/admin/_listRepairMan.php')
         .then(res => {
           // 请求成功后的数据返回给用户列表用于展示
           tableData.value = res.data;
@@ -79,7 +79,7 @@ export default {
         type: 'warning'
       }).then(() =>{
         axios
-        .post('http://localhost:8080/api/admin/_deleteRepairMan.php', {
+        .post('http://localhost:5473/api/admin/_deleteRepairMan.php', {
           aid: row.aid,
         })
         .then(() =>{
