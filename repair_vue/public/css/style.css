@@ -1,0 +1,148 @@
+
+.div_parent{
+    text-align: center;
+    padding-top: 2px;
+}
+
+.btn_primary {
+  background-color: #4CAF50; /* Green */
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btn_primary:hover{
+  background-color: #2ed573;
+}
+
+.btn_secondary{
+  background-color: #008CBA;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btn_secondary:hover{
+  background-color: #2ed573;
+}
+
+.btn_danger{
+  background-color: #ff6b81;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btn_danger:hover{
+  background-color: #ff4757;
+}
+
+.navbar{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar a{
+  text-decoration:none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.navbar a:hover{
+  color: rgb(50, 147, 147);
+}
+
+.success{
+  color: green;
+}
+
+.error{
+  padding-top: 5px;
+  color:red;
+}
+
+.index_form{
+display: inline-block;
+border-radius: 10rpx;
+padding: 40rpx;
+width: 300px;
+text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+}
+
+table, th, td
+{
+    border: 1px solid #ccc;
+}
+
+td
+{
+    padding: 15px;
+}
+
+
+.panel_table{
+  display: inline-block;
+  padding: 40rpx;
+  text-align: center;
+  }
+  
+.update_image{
+  padding: 12px 0px;
+}
+
+input[type=text], input[type=password], [type=email], [type=file],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+   
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*after mouse move ,shape of cursor*/
+  }
+   
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .reg_info{
+    display: inline-block;
+    border-radius: 10rpx;
+    padding: 40rpx;
+    width: 300px;
+    text-align: left;
+  }
